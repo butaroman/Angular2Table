@@ -1,0 +1,62 @@
+[
+	 {
+		 "osbbId": 1,
+		 "name": "MyHome",
+		 "description":"My favorite osbb"
+	 },
+	 {
+		 "osbbId": 2,
+		 "name": "Lviv OSBB",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 3,
+		 "name": "AAA",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 4,
+		 "name": "BBB",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 5,
+		 "name": "AAB",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 6,
+		 "name": "A",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 7,
+		 "name": "test7",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 8,
+		 "name": "test8",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 9,
+		 "name": "test9",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 10,
+		 "name": "test10",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 11,
+		 "name": "test11",
+		 "description":"I hate this osbb=))"
+	 },
+	 {
+		 "osbbId": 12,
+		 "name": "test12",
+		 "description":"I hate this osbb=))"
+	 }
+ ]
