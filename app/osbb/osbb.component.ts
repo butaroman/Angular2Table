@@ -1,22 +1,24 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 import {DatePipe} from "@angular/common";
 import {HTTP_PROVIDERS, Http} from "@angular/http";
 import {DataTableDirectives} from 'angular2-datatable/datatable';
-//import {SearchPipe} from './search-pipe';
-import * as _ from 'lodash';
+import {SearchPipe} from './search-pipe';
+import {SearchBox} from './search-box';
+//import * as _ from 'lodash';
 
 
 @Component({
     selector: 'osbb-table',
     templateUrl: './app/osbb/osbb.component.html',
     providers: [HTTP_PROVIDERS],
-    directives: [DataTableDirectives],
-	//pipes:[SearchPipe]
-    pipes: [DatePipe]
+    directives: [DataTableDirectives, SearchBox],
+	pipes:[SearchPipe]
+    //pipes: [DatePipe]
 })
 export class OsbbComponent {
 
     private data;
+	//@Input() term;
 
     constructor(private http:Http) {
        http.get("app/osbb/data.json")

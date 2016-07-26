@@ -1,8 +1,10 @@
 <div class="container">
     <div class="col-xs-12 col-md-offset-2">
         <h2>Osbb table</h2>
+        <form class="navbar-form navbar-left" role="search">
+            <search-box (update)="term = $event"></search-box>
+        </form>
         <div class="panel panel-default">
-
             <table class="table table-striped" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="10">
                 <thead>
                 <tr>
@@ -20,7 +22,7 @@
                 </thead>
                 <tbody>
                <!-- <tr *ngFor="let item of mf.data | search"> -->
-			   <tr *ngFor="let item of mf.data">
+			   <tr *ngFor="let item of mf.data | search: term ">
                     <td>
                       <button class="btn btn-danger" title="remove" (click)="removeItem(item)">
                         <span class="glyphicon glyphicon-remove"></span>
